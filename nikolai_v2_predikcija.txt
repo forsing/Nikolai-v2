@@ -1,5 +1,5 @@
 
 --- 2026-05-24 17:24:38.386773 (N=4620) ---
-NIKOLAI    -> [1, 17, 18, 21, 30, 33, 38]  (suma=158, neparnih=4/7, niskih(<=19)=3/7, raspon=37)
-NIKOLAI*M  -> [1, 17, 18, 21, 30, 33, 38]  (suma=158, neparnih=4/7, niskih(<=19)=3/7, raspon=37)
+NIKOLAI    -> [1, x, 18, y, 30, z, 38]  (suma=158, neparnih=4/7, niskih(<=19)=3/7, raspon=37)
+NIKOLAI*M  -> [1, x, 18, y, 30, z, 38]  (suma=158, neparnih=4/7, niskih(<=19)=3/7, raspon=37)
 back-test: NIKOLAI hits/7=1.270, NIKOLAI*M hits/7=1.270, baseline=1.256, AUC=0.500, LRAP=0.245
