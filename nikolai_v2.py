@@ -473,6 +473,19 @@ Snimljeno u: /nikolai_v2_predikcija.txt
 
 STOP 2026-05-24 17:24:38.387023
 Ukupno vreme: 0:00:00  (0.0 s)
+
+
+
+
+
+Nikolai formula nema jak signal.
+hits/7 = 1.270
+baseline slučajno = 1.256
+razlika = +0.014 broja po kolu
+To je praktično isto kao slučajno. 
+
+Još važnije:
+AUC = 0.500 → potpuno slučajno rangiranje
+LRAP = 0.245 → nema korisnog ranking signala
+Zaključak: kao samostalna predikcija ne vredi. 
 """
-
-
