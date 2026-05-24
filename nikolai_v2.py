@@ -184,8 +184,8 @@ E28 = -67.941409230581000
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = "/Users/4c/Desktop/GHQ/data/loto7_4620_k41.csv"
-OUT_TXT = Path("/Users/4c/Desktop/GHQ/KvantniRegresor/nikolai_v2_predikcija.txt")
+CSV_PATH = "/data/loto7_4620_k41.csv"
+OUT_TXT = Path("/nikolai_v2_predikcija.txt")
 N_MIN, N_MAX = 1, 39
 K = 7
 BACKTEST_N = 100
@@ -460,8 +460,8 @@ nikolai (i, f, fM)
 ###############################
 
 Top-7 po Nikolai skoru (deterministički):
-  NIKOLAI  -> [1, 17, 18, 21, 30, 33, 38]  (suma=158, neparnih=4/7, niskih(<=19)=3/7, raspon=37)
-  NIKOLAI*M-> [1, 17, 18, 21, 30, 33, 38]  (suma=158, neparnih=4/7, niskih(<=19)=3/7, raspon=37)
+  NIKOLAI  -> [1, x, 18, y, 30, z, 38]  (suma=158, neparnih=4/7, niskih(<=19)=3/7, raspon=37)
+  NIKOLAI*M-> [1, x, 18, y, 30, z, 38]  (suma=158, neparnih=4/7, niskih(<=19)=3/7, raspon=37)
 
 Back-test (poslednjih 100 izvlačenja, N=4620):
   NIKOLAI   hits/7 = 1.270  (18.1%)
@@ -469,7 +469,7 @@ Back-test (poslednjih 100 izvlačenja, N=4620):
   (slučajan baseline ≈ 1.256 hits/7 = 17.9%)
   AUC = 0.500   LRAP = 0.245
 
-Snimljeno u: /Users/4c/Desktop/GHQ/KvantniRegresor/nikolai_v2_predikcija.txt
+Snimljeno u: /nikolai_v2_predikcija.txt
 
 STOP 2026-05-24 17:24:38.387023
 Ukupno vreme: 0:00:00  (0.0 s)
